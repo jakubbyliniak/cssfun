@@ -4,22 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CSS Fun</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" type="text/css" href="custom.css">
-    <script src="script.js"></script>
+    
+    
 
+    <link rel="stylesheet" type="text/css" href="/viewscroller/viewScroller.min.css">
+
+    
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    
 </head>
 <body>
+<div class="mainbag">
+        <div vs-anchor="firstview" class="mainview container darkblue ">
+                <div class="header">
+                        <div class="header__text text-white">
+                                Awesome
+                        </div>
+                        <div class="header__description text-white">
+                                these buttons does not do much, they just are... to shine nicely
+                        </div>                   
+                </div>
+        
+                <div class="icons-container">
+                        <ul class="icon-list">
+                                <li><a href=""><i class="fas fa-gift" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fas fa-glass-martini" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fas fa-globe" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+                        </ul>
+                </div>
+        </div>
 
-<div class="container black ">
+        <div vs-anchor="secondview" class="mainview container white ">
+                <div class="header">
+                        <div class="header__text text-black">
+                                Awesome
+                        </div>
+                        <div class="header__description text-black">
+                                these buttons does not do much, they just are... to shine nicely
+                        </div>
+                </div>
+
+                <div class="icons-container">
+                        <ul class="icon-list">
+                                <li><a href=""><i class="fas fa-gift" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fas fa-glass-martini" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fas fa-globe" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+                </ul>
+        </div>
+</div>
+
+<div vs-anchor="thirdview" class="mainview container black ">
        
-        <div class="sec-header">
-                <div class="header-text">
+        <div class="header">
+                <div class="header__text text-white">
                         Awesome
                 </div>
-                <div class="header-description">
+                <div class="header__description text-white">
                         these buttons does not do much, they just are... to shine nicely
                 </div>
                 
@@ -35,7 +80,12 @@
         </div>
 
 </div>
+</div>
 
-
+<script src="/viewscroller/jquery-3.1.0.min.js"></script>
+<script src="/viewscroller/jquery.easing.min.js"></script>
+<script src="/viewscroller/jquery.mousewheel.min.js"></script>
+<script src="/viewscroller/viewScroller.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
