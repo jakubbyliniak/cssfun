@@ -4,7 +4,7 @@
   "description": "just a simple package",
   "main": "script.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss custom.css -w"
+    "watch:sass": "node-sass sass/main.scss custom.css -w"
   },
   "repository": {
     "type": "git",
