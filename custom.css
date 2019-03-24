@@ -20,15 +20,15 @@ body {
   z-index: -1; }
 
 .bg-full-1 {
-  background: url("/img/workbook.jpg");
+  background: url("./img/workbook.jpg");
   background-size: cover; }
 
 .bg-full-2 {
-  background: url("/img/krata2.jpg");
+  background: url("./img/krata2.jpg");
   background-size: cover; }
 
 .bg-full-3 {
-  background: url("/img/krata3.jpg");
+  background: url("./img/krata3.jpg");
   background-size: cover; }
 
 .bg-transparent {
